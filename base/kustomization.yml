@@ -3,7 +3,6 @@ resources:
 - "auth.yml"
 - "trust.yml"
 - "secrets.yml"
-- "issuer.yml"
 - "issuer-role.yml"
 
 labels:
