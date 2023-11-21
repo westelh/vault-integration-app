@@ -4,7 +4,3 @@ resources:
 - "trust.yml"
 - "secrets.yml"
 - "issuer-role.yml"
-
-labels:
-- pairs:
-    app: vault-integration

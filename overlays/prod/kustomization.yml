@@ -2,4 +2,9 @@ resources:
 - "../../base"
 - "issuer.yml"
 
-buildMetadata: ["managedByLabel" ]
+buildMetadata: ["managedByLabel"]
+
+labels:
+- pairs:
+    app: vault-integration
+    flavor: prod

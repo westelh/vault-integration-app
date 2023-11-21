@@ -3,3 +3,8 @@ resources:
 - "issuer.yml"
 
 buildMetadata: ["managedByLabel" ]
+
+labels:
+- pairs:
+    app: vault-integration
+    flavor: dev
