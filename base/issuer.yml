@@ -1,0 +1,15 @@
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: vault-issuer
+  namespace: default
+spec:
+  vault:
+    path: pki_int1/sign/westelh-dev
+    server: http://vault.vault.svc.cluster.local:8200
+    auth:
+      kubernetes:
+        mountPath: /v1/auth/bakke
+        role: vault-issuer
+        serviceAccountRef:
+          name: vault-issuer
