@@ -6,5 +6,5 @@ buildMetadata: ["managedByLabel" ]
 
 labels:
 - pairs:
-    app: vault-integration
+    app.kubernetes.io/name: vault-integration
     flavor: dev

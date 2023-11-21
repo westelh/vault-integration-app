@@ -3,5 +3,7 @@ kind: VaultConnection
 metadata:
   name: vault-connection
   namespace: cert-manager
+  labels:
+    app.kubernetes.io/component: trust-manager
 spec:
   address: http://vault.vault.svc.cluster.local:8200

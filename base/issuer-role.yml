@@ -3,6 +3,8 @@ kind: Role
 metadata:
   name: vault-issuer
   namespace: default 
+  labels:
+    app.kubernetes.io/component: cert-manager
 rules:
   - apiGroups: ['']
     resources: ['serviceaccounts/token']
