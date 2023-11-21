@@ -1,0 +1,10 @@
+resources:
+- "connection.yml"
+- "auth.yml"
+- "vault-issuer.yml"
+- "trust.yml"
+- "secrets.yml"
+
+labels:
+  - pairs:
+      app: vault-integration
